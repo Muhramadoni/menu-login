@@ -92,6 +92,7 @@ input:focus::placeholder {
 
 a button:hover {
   background-color: #046b72;
+  transition: ease 0.3s;
 }
 
 .account {
