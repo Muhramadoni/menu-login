@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.bg-blur {
+  backdrop-filter: blur(5px);
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.judul h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  padding: 15px;
+}
+
+.form-input input {
+  display: block;
+  width: 100%;
+  height: 45px;
+  color: #fff;
+  padding: 0px 10px;
+  border-radius: 9px;
+  font-size: 15px;
+  margin-bottom: 18px;
+  border: 1px solid #fff;
+  background: transparent;
+}
+
+input::placeholder {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+input:focus::placeholder {
+  transition: opacity 0.1s ease;
+  opacity: 0;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.remember label {
+  color: #fff;
+  padding: 0px 5px;
+  font-weight: 600;
+}
+
+.remember a {
+  font-weight: 500;
+  margin-left: 100px;
+  font-size: 16px;
+}
+
+.btn a button {
+  width: 100%;
+  height: 45px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 600;
+  background-color: #068f98;
+  border-radius: 12px;
+}
+
+a button:hover {
+  background-color: #046b72;
+  transition: ease 0.4s;
+}
+
+.account {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.account p {
+  color: #fff;
+  font-weight: 600;
+}
+
+.account a {
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 5px;
+}
